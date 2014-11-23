@@ -7,7 +7,7 @@ $hwstack = 40
 $swstack = 16
 $framesize = 32
 
-Config Lcdpin = Pin , Rs = Portc.0 , E = Portc.1 , Db4 = Portc.2 , Db5 = Portc.3 , Db6 = Portc.4 , Db7 = Postc.5
+Config Lcdpin = Pin , Rs = Portc.0 , E = Portc.1 , Db4 = Portc.2 , Db5 = Portc.3 , Db6 = Portc.4 , Db7 = Portc.5
 
 Config Lcd = 16 * 2
 
