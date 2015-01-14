@@ -8,7 +8,7 @@ Config Lcdpin = Pin , Rs = Portc.0 , E = Portc.1 , Db4 = Portc.2 , Db5 = Portc.3
 Config Lcd = 16 * 2
 
 
-Config Adc = Single , Prescaler = Auto , Reference = Internal       ' ustawienie wejścia analogowego
+Config Adc = Single , Prescaler = Auto , Reference = Avcc       ' ustawienie wejścia analogowego
 Start Adc
 
 Dim W As Word
